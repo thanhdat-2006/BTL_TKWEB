@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VIETTRAVEL</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script src="js/new.js" defer></script>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="img/logoweb.png" alt=""></a>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="img/vietnam.jpg" alt="">
+                <div>Vietnamese</div>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="#"><i class="fa fa-user"></i> Login</a>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./place.html">Địa điểm</a></li>
+                <li><a href="#">Đặt lịch</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./tour.html">Đặt tour</a></li>
+                        <li><a href="./service.html">Đặt dịch vụ</a></li>
+                        <li><a href="./history.html">Lịch sử đặt lịch</a></li>
+                        <li><a href="./blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="./evaluate.html">Đánh giá</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i> viettravel@gmail.com</li>
+                <li>Khơi nguồn cảm hứng khám phá</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> viettravel@gmail.com</li>
+                                <li>Khơi nguồn cảm hứng khám phá</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            <div class="header__top__right__language">
+                                <img src="img/vietnam.jpg" alt="">
+                                <div>Vietnamese</div>   
+                            </div>
+                            <div class="header__top__right__auth">
+                                <span id="currentDateTime"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logoweb.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Trang chủ</a></li>
+                            <li><a href="./place.html">Địa điểm</a></li>
+                            <li><a href="#">Đặt lịch</a>
+                                <ul class="header__menu__dropdown">
+                                    <li><a href="./tour.html">Đặt tour</a></li>
+                                    <li><a href="./service.html">Đặt dịch vụ</a></li>
+                                    <li><a href="./history.html">Lịch sử đặt lịch</a></li>>
+                                </ul>
+                            </li>
+                            <li><a href="./evaluate.html">Đánh giá</a></li>
+                            <li><a href="./contact.html">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>Danh mục địa điểm</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Hà Nội</a></li>
+                            <li><a href="#">Hồ Chí Minh</a></li>
+                            <li><a href="#">Kiên Giang</a></li>
+                            <li><a href="#">Thừa Thiên Huế</a></li>
+                            <li><a href="#">Bình Định</a></li>
+                            <li><a href="#">Bà Rịa-Vũng Tàu</a></li>
+                            <li><a href="#">Cần Thơ</a></li>
+                            <li><a href="#">Đà Nẵng</a></li>
+                            <li><a href="#">Khánh Hòa</a></li>
+                            <li><a href="#">Quảng Ninh</a></li>
+                            <li><a href="#">Quảng Nam</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <input type="text" placeholder="Bạn cần tìm gì?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
+                            </form>
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>0935.875.339</h5>
+                                <h5>Support 24/24 time</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__item set-bg" data-setbg="img/hero/dulichvietnam.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Categories Section Begin -->
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/vanmieuquoctugiam.jpg">
+                            <h5><a href="#">Hà Nội</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/anhtphcm.jpg">
+                            <h5><a href="#">Hồ Chí Minh</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/anhhue.jpg">
+                            <h5><a href="#">Huế</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/anhdanang.jpg">
+                            <h5><a href="#">Đà Nẵng</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/anhbinhdinh.jpg">
+                            <h5><a href="#">Bình Định</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Featured Section Begin -->
+    <section class="featured spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Một vài địa điểm nổi tiếng</h2>
+                    </div>
+                    <div class="featured__controls">
+                        <ul>
+                            <li class="active" data-filter="*">Tất cả</li>
+                            <li data-filter=".livingroom">Hà Nội</li>
+                            <li data-filter=".bedroom">Hồ Chí Minh</li>
+                            <li data-filter=".bookshelf">Khánh Hòa</li>
+                            <li data-filter=".lampandlights">Bà Rịa-Vũng Tàu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row featured__filter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix livingroom">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/vanmieuquoctugiam.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Văn Miếu-Quốc Tử Giám</a></h5>
+                            <h6>Số 58,Đường Quốc Tử Giám, Phường Đống Đa, Thành phố Hà Nội</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix livingroom">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/hoangthanhthanglong.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Hoàng Thành Thăng Long</a></h5>
+                            <h6>Số 19C, Đường Hoàng Diệu, Phường Ba Đình, Thành phố Hà Nội</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix lampandlights">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/muinghinhphong.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Mũi Nghinh Phong</a></h5>
+                            <h6>Số 1, Đường Hạ Long, Phường 2, Thành phố Vũng Tàu, Tỉnh Bà Rịa - Vũng Tàu</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix livingroom">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/langbac.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Lăng Chủ tịch Hồ Chí Minh</a></h5>
+                            <h6>Số 2, Đường Hùng Vương, Phường Điện Biên, Quận Ba Đình, Thành phố Hà Nội</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix livingroom">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/nhahatlonhanoi.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Nhà hát Lớn Hà Nội</a></h5>
+                            <h6>Số 1A, Phố Tràng Tiền, Phường Cửa Nam, Quận Hoàn Kiếm, Thành phố Hà Nội</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix bedroom">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/dinhdoclap.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Dinh Độc Lập</a></h5>
+                            <h6>Số 135, Đường Nam Kỳ Khởi Nghĩa, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix bookshelf">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/thapbaponagar.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Tháp Bà Ponagar</a></h5>
+                            <h6>Số 61, Đường Hai Tháng Tư, Phường Vĩnh Phước, Thành phố Nha Trang, Tỉnh Khánh Hòa</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix bedroom">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/nhathoducba.jpg">
+                        </div>
+                        <div class="featured__item__text">
+                            <h5><a href="#">Nhà thờ Đức Bà</a></h5>
+                            <h6>Số 1, Đường Công xã Paris, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Begin -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Banner End -->
+
+    <!-- Latest Product Section Begin -->
+    <section class="latest-product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest-product__text">
+                        <h4>Tour mới nhất</h4>
+                        <div class="latest-product__slider owl-carousel">
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/anhnhatrang.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Tour Nha Trang (3 ngày 2 đêm)</h6>
+                                        <span><i class="fa fa-money"></i> 8 triệu</span>
+                                        <span><i class="fa fa-plane"></i> Máy bay</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/anhtphcm.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Tour TP.Hồ Chí Minh (4 ngày 3 đêm)</h6>
+                                        <span><i class="fa fa-money"></i> 6 triệu</span>
+                                        <span><i class="fa fa-car"></i> Xe hơi</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/anhvungtau_5.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Tour Vũng Tàu (4 ngày 3 đêm)</h6>
+                                        <span><i class="fa fa-money"></i> 5 triệu</span>
+                                        <span><i class="fa fa-car"></i> Xe hơi</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/anhnhatrang.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Tour Nha Trang (7 ngày 6 đêm)</h6>
+                                        <span><i class="fa fa-money"></i> 13 triệu</span>
+                                        <span><i class="fa fa-plane"></i> Máy bay</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/anhhalong_2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Tour Hạ Long (5 ngày 4 đêm)</h6>
+                                        <span><i class="fa fa-money"></i> 14 triệu</span>
+                                        <span><i class="fa fa-plane"></i> Máy bay</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/anhvungtau_5.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Tour Vũng Tàu (7 ngày 6 đêm)</h6>
+                                        <span><i class="fa fa-money"></i> 7 triệu</span>
+                                        <span><i class="fa fa-car"></i> Xe hơi</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest-product__text">
+                        <h4>Khách sạn, nhà hàng</h4>
+                        <div class="latest-product__slider owl-carousel">
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/khachsan.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Sunrise Hotel</h6>
+                                        <span><i class="fa fa-map"></i> Hồ Chí Minh</span>
+                                        <span><i class="fa fa-money"></i> ~7-10 triệu</span>
+                                        <span>5<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/nhahang.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Diamond Restaurant</h6>
+                                        <span><i class="fa fa-map"></i> Vũng Tàu</span>
+                                        <span><i class="fa fa-money"></i> ~8-10 triệu</span>
+                                        <span>5<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/khachsan.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Sunflower Hotel</h6>
+                                        <span><i class="fa fa-map"></i> Hồ Chí Minh</span>
+                                        <span><i class="fa fa-money"></i> ~2-4 triệu</span>
+                                        <span>3<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/nhahang.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Ruby Restaurant</h6>
+                                        <span><i class="fa fa-map"></i> Nha Trang</span>
+                                        <span><i class="fa fa-money"></i> ~2,5-5 triệu</span>
+                                        <span>3<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/khachsan.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Vincent Hotel</h6>
+                                        <span><i class="fa fa-map"></i> Hà Nội</span>
+                                        <span><i class="fa fa-money"></i> ~8-10 triệu</span>
+                                        <span>5<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/nhahang.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Lavis Restaurant</h6>
+                                        <span><i class="fa fa-map"></i> Hồ Chí Minh</span>
+                                        <span><i class="fa fa-money"></i> ~5-7 triệu</span>
+                                        <span>4<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest-product__text">
+                        <h4>Villa, Resort</h4>
+                        <div class="latest-product__slider owl-carousel">
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/resort.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Pearl Resort</h6>
+                                        <span><i class="fa fa-map"></i> Vũng Tàu</span>
+                                        <span><i class="fa fa-money"></i> ~15-20 triệu</span>
+                                        <span>5<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/villa.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Sunset Villa</h6>
+                                        <span><i class="fa fa-map"></i> Nha Trang</span>
+                                        <span><i class="fa fa-money"></i> ~20-30 triệu</span>
+                                        <span>5<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/resort.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Horizon Resort</h6>
+                                        <span><i class="fa fa-map"></i> Vũng Tàu</span>
+                                        <span><i class="fa fa-money"></i> 10-20 triệu</span>
+                                        <span>4<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/villa.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Star Villa</h6>
+                                        <span><i class="fa fa-map"></i> Hồ Chí Minh</span>
+                                        <span><i class="fa fa-money"></i> ~20-25 triệu</span>
+                                        <span>5<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/resort.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Grand Resort</h6>
+                                        <span><i class="fa fa-map"></i> Nha Trang</span>
+                                        <span><i class="fa fa-money"></i> ~25-30 triệu</span>
+                                        <span>5<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/resort.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Sliver Resort</h6>
+                                        <span><i class="fa fa-map"></i> Hồ Chí Minh</span>
+                                        <span><i class="fa fa-money"></i> ~15-20 triệu</span>
+                                        <span>4<i class="fa fa-star"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Product Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="from-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title from-blog__title">
+                        <h2>Một số bài viết khác</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/statushanoi.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> 01/01/2025</li>
+                                <li><i class="fa fa-heart-o"></i> 1M</li>
+                            </ul>
+                            <h5><a href="#">Những địa điểm du lịch nổi tiếng ở Hà Nội</a></h5>
+                            <p>Hà Nội luôn mang trong mình vẻ đẹp hài hoà giữa truyền thống và hiện đại, vì thế mà nơi đây chưa bao giờ khiến du khách thấy nhàm chán. Dù bạn đặt chân đến thủ đô lần đầu hay đã quen thuộc từng con phố, mỗi chuyến đi đều đem đến những trải nghiệm mới mẻ: từ vui chơi – giải trí, khám phá cảnh quan, tìm hiểu văn hoá – lịch sử cho đến thưởng thức ẩm thực đặc sắc. Mỗi khoảnh khắc lưu lại nơi Hà Nội đều mang nét riêng và khó thể phai mờ…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/statusnhatrang.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> 01/01/2025</li>
+                                <li><i class="fa fa-heart-o"></i> 1M</li>
+                            </ul>
+                            <h5><a href="#">Đi đâu khi tới Nha Trang</a></h5>
+                            <p>Thành phố biển Nha Trang luôn mang sức hút đặc biệt khi dung hòa vẻ hiện đại nhộn nhịp với cảnh sắc biển đảo trù phú. Nơi đây chưa bao giờ khiến du khách thôi say mê bởi nét đẹp rực rỡ và sống động. Chỉ vừa tận hưởng bãi cát trắng nắng vàng cùng tiếng sóng vỗ êm dịu, bạn đã có thể đổi góc nhìn và ngắm toàn cảnh thành phố từ độ cao 151m tại đài quan sát Skylight. Chưa dừng lại ở đó, hành trình khám phá các hòn đảo tuyệt mỹ hay chuyến “ăn cả Nha Trang” với vô vàn món ngon cũng đủ khiến chuyến đi thêm trọn vẹn và khó quên...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/statusvungtau.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> 01/01/2025</li>
+                                <li><i class="fa fa-heart-o"></i> 1M</li>
+                            </ul>
+                            <h5><a href="#">Những địa điểm không thể bỏ qua khi đến Vũng Tàu</a></h5>
+                            <p>Thành phố biển Vũng Tàu luôn mang trong mình sức hấp dẫn riêng khi kết hợp hài hòa sự sôi động của phố xá với vẻ yên bình của biển trời bao la. Nơi đây chưa bao giờ khiến du khách bớt hứng thú bởi nét đẹp vừa gần gũi vừa rạng rỡ. Chỉ cần dạo bước trên bãi biển lộng gió, ngắm những con sóng xanh miên man, bạn có thể ngay lập tức chuyển sang một trải nghiệm khác – phóng tầm mắt toàn cảnh thành phố từ Ngọn Hải Đăng hay tượng Chúa Kitô Vua trên Núi Nhỏ. Và đó mới chỉ là bắt đầu cho hành trình khám phá: từ những bãi tắm đẹp, các điểm tham quan nổi tiếng cho đến cuộc “thám hiểm ẩm thực” với hải sản tươi ngon trứ danh của Vũng Tàu. Mỗi khoảnh khắc đều mang một dấu ấn rất riêng và khó lòng quên được...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="img/logoweb.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Địa chỉ: 49-53 Đường Cách mạng tháng Tám, Thành phố Hồ Chí Minh</li>
+                            <li>Điện thoại: 0935.875.339</li>
+                            <li>Email: viettravel@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h5>Đối tác liên kết</h5>
+                        <div class="pic">
+                        <img src="img/Traveloka.png">
+                        <img src="img/vietnamairlines.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Nhận tin tức mới</h6>
+                        <p>Để lại email để cập nhật những tour mới nhất và ưu đãi hấp dẫn của chúng tôi</p>
+                        <form action="#">
+                            <input type="text" placeholder="Nhập địa chỉ email">
+                            <button type="submit" class="site-btn">Đăng ký</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Bản quyền thuộc về Viettravel
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/date.js"></script>
+
+
+
+</body>
+
+</html>
